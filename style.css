@@ -1,0 +1,61 @@
+@import url(global/global.css);
+
+/* --- IMAGEM NO INICIO DA HOME --- */
+
+.hero {
+    background-image: url(./imgs/Escada\ Matarazzo\ \(2\).JPG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    height: 70vh;
+    color: #fff;
+    margin-top: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.rocamar{
+    height: 285px;
+    width: auto;
+}
+
+/* --- ANOS DA EMPRESA - INTRODUZIR --- */
+
+.sessenta{
+    height: 35vh;
+}
+
+.introducao{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.box-titulo {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.box-titulo h2 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.box-texto {
+    flex: 2;
+    color: #555;
+    line-height: 1.6;
+}
+
+.box-titulo, .box-texto {
+        padding: 10px 0;
+}
