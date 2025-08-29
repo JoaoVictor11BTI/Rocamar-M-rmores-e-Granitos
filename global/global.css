@@ -1,3 +1,5 @@
+/* --- RESET --- */
+
 *{
     margin: 0;
     padding: 0;
@@ -9,6 +11,8 @@ body {
     background-color: rgb(255, 255, 255);
     color: #333;
 }
+
+/* --- HEADER --- */
 
 .header {
     background: #222;
@@ -52,4 +56,21 @@ body {
 
 .logo {
     height: 50px;
+}
+
+/* --- FOOTER --- */
+
+.footer{
+    background-color: #222;
+    padding: 50px 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;
+}
+
+.footer-logo{
+    height: 100px;
+    width: auto;
 }
