@@ -97,6 +97,10 @@ body.loaded #loader {
     height: 50px;
 }
 
+.pagina-ativa{
+    color: #fff;
+}
+
 /* === FOOTER --- */
 
 .footer{
