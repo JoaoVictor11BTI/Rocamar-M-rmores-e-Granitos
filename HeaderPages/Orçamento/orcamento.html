@@ -32,6 +32,51 @@
 
         </div>
     </header>
+
+    <main class="orcamento-principal">
+        <section class="orcamento-section">
+            <h1>Solicite seu Orçamento</h1>
+            <p>Preencha o formulário abaixo e entraremos em contato com você o mais rápido possível.</p>
+
+            <!-- CONFERIR DEPOIS A FORMA D ENVIO PARA EMAIL-->
+    
+            <form class="orcamento-form" action="mailto:vendas@rocamar.com.br" method="post" enctype="text/plain">
+                <div class="form-group">
+                    <label for="nome">Nome completo:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="servico">Tipo de serviço:</label>
+                    <select id="servico" name="servico" required>
+                        <option value="">Selecione</option>
+                        <option value="Mármore">Mármore</option>
+                        <option value="Granito">Granito</option>
+                        <option value="Reforma">Reforma</option>
+                        <option value="Outro">Outro</option>
+                    </select>
+                </div>
+    
+                <div class="form-group">
+                    <label for="mensagem">Mensagem / Detalhes:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                </div>
+    
+                <button type="submit" class="cta-btn">Enviar Orçamento</button>
+            </form>
+        </section>
+    </main>
+    
     
     <footer class="footer">
         <img class="footer-logo" src="../../imgs/logo.png" alt="">
