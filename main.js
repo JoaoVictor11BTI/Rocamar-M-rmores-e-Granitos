@@ -1,3 +1,5 @@
+/* === CARREGAMENTO AO ENTRAR === */
+
 const MIN_TIME = 1350;
 window.addEventListener("load", () => {
     const loader = document.getElementById("loader");
