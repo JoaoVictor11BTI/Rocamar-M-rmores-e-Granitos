@@ -43,7 +43,7 @@
   .btn {
     display: inline-block;
     padding: 10px 25px;
-    background: #d4af37;
+    background: #e63946;
     color: #fff;
     border-radius: 6px;
     text-decoration: none;
@@ -52,7 +52,8 @@
   }
   
   .btn:hover {
-    background: #b38f2c;
+    background: #ffffff;
+    color: #333;
   }
   
   /* ===== FILTROS ===== */
