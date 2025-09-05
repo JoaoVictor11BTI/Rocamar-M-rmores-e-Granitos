@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocamar | Mármores e Granitos</title>
+    <link rel="icon" type="image/png" href="../../imgs/logo.png">
+    <link rel="stylesheet" href="orcamento.css">
+    <script src="../../main.js"></script>
+</head>
+
+<body>
+
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <a href="https://wa.me/5511940817989" class="whatsapp-btn" target="_blank">
+        <img src="https://static.vecteezy.com/system/resources/previews/023/986/589/original/whatsapp-logo-whatsapp-logo-transparent-whatsapp-icon-transparent-free-free-png.png" alt="WhatsApp">
+      </a>
+
+    <header class="header">
+        <div class="container">
+
+            <a href="../../index.html"><img src="../../imgs/logo.png" alt="Logo rocamar" class="logo"></a>
+
+            <nav>
+                <ul class="navegacao">
+                    <li><a href="../../HeaderPages/Sobre/sobre.html">Sobre nós</a></li>
+                    <li><a href="../../HeaderPages/Orçamento/orcamento.html"><strong class="pagina-ativa">Orçamento</strong></a></li>
+                    <li><a href="../../HeaderPages/Obras/obras.html">Obras</a></li>
+                    <li><a href="../../HeaderPages/Blog/blog.html">Blog</a></li>
+                    <li><a href="../../HeaderPages/Contato/contato.html">Contato</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <main class="orcamento-principal">
+        <section class="orcamento-section">
+            <h1>Solicite seu Orçamento</h1>
+            <p>Preencha o formulário abaixo e entraremos em contato com você o mais rápido possível.</p>
+
+            <!-- CONFERIR DEPOIS A FORMA D ENVIO PARA EMAIL-->
+    
+            <form class="orcamento-form" action="mailto:vendas@rocamar.com.br ?subject=Dúvida%20sobre%20o%20produto&cc=suporte@exemplo.com&body=Olá,%0D%0A%0D%0AGostaria%20de%20saber%20mais%20sobre..." method="post" enctype="text/plain">
+                <div class="form-group">
+                    <label for="nome">Nome completo:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="servico" >Tipo de serviço:</label>
+                    <select id="servico" name="servico" required>
+                        <option disabled>Selecione</option>
+                        <option value="Bancada">Bancada</option>
+                        <option value="Piso">Piso</option>
+                        <option value="Piso">Restauração</option>
+                        <option value="Piso">Limpeza</option>
+                        <option value="Reforma">Reforma</option>
+                        <option value="Outro">Outro</option>
+                    </select>
+                </div>
+    
+                <div class="form-group">
+                    <label for="mensagem">Mensagem / Detalhes:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                </div>
+    
+                <button type="submit" class="cta-btn">Enviar Orçamento</button>
+            </form>
+        </section>
+    </main>
+    
+    
+    <footer class="footer">
+        <img class="footer-logo" src="../../imgs/logo.png" alt="">
+    
+        <h2>(11) 0000-0000 | (11) 98558-6909</h2>
+        <br>
+        <p>Rua Carajuva nº 18, Jardim Rebouças, São Paulo - SP</p>
+        <br><br>
+        <p>© 2025 Rocamar – Todos os direitos reservados</p>
+    
+    </footer>
+
+</body>
+</html>
