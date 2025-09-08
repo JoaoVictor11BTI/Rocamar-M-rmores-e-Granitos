@@ -44,7 +44,7 @@
 
             <!-- CONFERIR DEPOIS A FORMA D ENVIO PARA EMAIL-->
     
-            <form class="orcamento-form" action="mailto:vendas@rocamar.com.br ?subject=Dúvida%20sobre%20o%20produto&cc=suporte@exemplo.com&body=Olá,%0D%0A%0D%0AGostaria%20de%20saber%20mais%20sobre..." method="post" enctype="text/plain">
+            <form id="meu-formulario" class="orcamento-form">
                 <div class="form-group">
                     <label for="nome">Nome completo:</label>
                     <input type="text" id="nome" name="nome" required>
@@ -63,11 +63,11 @@
                 <div class="form-group">
                     <label for="servico" >Tipo de serviço:</label>
                     <select id="servico" name="servico" required>
-                        <option disabled>Selecione</option>
+                        <option value="" disabled selected>Selecione</option>
                         <option value="Bancada">Bancada</option>
                         <option value="Piso">Piso</option>
-                        <option value="Piso">Restauração</option>
-                        <option value="Piso">Limpeza</option>
+                        <option value="Restauracao">Restauração</option>
+                        <option value="Limpeza">Limpeza</option>
                         <option value="Reforma">Reforma</option>
                         <option value="Outro">Outro</option>
                     </select>
@@ -81,11 +81,27 @@
                 <button type="submit" class="cta-btn">Enviar Orçamento</button>
             </form>
         </section>
+
+        <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+  (function(){
+    emailjs.init('rRYgliyeBLgyoj-RX'); // substitua pelo seu User ID
+  })();
+
+  const form = document.getElementById('meu-formulario');
+  form.addEventListener('submit', function(event) {
+    event.preventDefault(); // evita recarregar a página
+
+    emailjs.sendForm('service_27kv9j4', 'template_mr1i7yf', this)
+      .then(() => alert('E-mail enviado com sucesso!'))
+      .catch(err => alert('Erro ao enviar: ' + JSON.stringify(err)));
+  });
+</script>
     </main>
     
     
     <footer class="footer">
-        <img class="footer-logo" src="../../imgs/logo.png" alt="">
+        <a href="../../index.html"><img class="footer-logo" src="../../imgs/logo.png" alt=""></a>
     
         <h2>(11) 0000-0000 | (11) 98558-6909</h2>
         <br>
