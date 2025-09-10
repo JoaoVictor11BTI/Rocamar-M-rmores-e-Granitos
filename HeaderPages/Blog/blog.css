@@ -1,12 +1,5 @@
 @import url(../../global/global.css);
 
-.body{
-    background-image: url(../../imgs/—Pngtree—white\ marble\ texture\ with\ a_17451403.png);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
-
 .blog {
   padding: 20px;
   max-width: 900px;
@@ -19,16 +12,22 @@
 }
 
 .posts {
-  display: grid;
-  gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 cards por linha */
+    gap: 30px;
+    justify-content: center;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 .post {
-  background: white;
-  padding: 15px 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  transition: transform 0.2s;
+    background: rgb(230, 230, 230);
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+    box-sizing: border-box;
+    min-width: 50rem;
 }
 
 .post:hover {
@@ -70,5 +69,4 @@
   object-fit: cover;
   border-radius: 8px;
   margin-bottom: 10px;
-  
 }
