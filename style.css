@@ -106,26 +106,59 @@
     color: #555;
   }
 
-  /* ...existing code... */
-
-/* HERO: Limita tamanho da logo e ajusta imagem de fundo */
-.hero {
-    min-height: 250px;
-    height: 40vh;
-    max-height: 350px;
-    padding: 1rem 0;
-}
-.rocamar {
-    max-width: 90vw;
-    height: auto;
-    max-height: 120px;
-}
-
-
-.sessenta {
-    width:9rem;
-    height: auto;
+  /* Responsividade para telas menores */
+@media (max-width: 900px) {
+  .introducao {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 0.5rem;
+    gap: 1rem;
+    max-width: 100%;
+  }
+  .sessenta {
+    height: 100px;
     margin-bottom: 1rem;
+  }
+  .box-titulo, .box-texto {
+    padding: 0.5rem 0;
+    text-align: center;
+  }
+  .box-titulo h2 {
+    font-size: 1.2rem;
+  }
+  .hero {
+    height: 200px;
+    min-height: 120px;
+  }
+  .rocamar {
+    height: 60px;
+    max-width: 90vw;
+  }
+  .hero2 {
+    height: 200px;
+    min-height: 120px;
+  }
+  .hero2-content {
+    height: 200px;
+    padding: 1rem;
+  }
 }
 
-/* ...existing code... */
+/* Ajustes extras para telas muito pequenas */
+@media (max-width: 500px) {
+  .introducao {
+    padding: 1rem 0.2rem;
+    gap: 0.5rem;
+  }
+  .box-titulo h2 {
+    font-size: 1rem;
+  }
+  .box-texto {
+    font-size: 0.95rem;
+  }
+  .cta-btn {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+}
