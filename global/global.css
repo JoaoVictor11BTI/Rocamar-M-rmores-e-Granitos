@@ -32,10 +32,10 @@ body {
 }
 
 .spinner {
-    width: 60px;
-    height: 60px;
-    border: 6px solid #ddd;
-    border-top: 6px solid #e63946;
+    width: 3.75rem;
+    height: 3.75rem;
+    border: .375rem solid #ddd;
+    border-top: .375rem solid #e63946;
     border-radius: 50%;
     animation: spin 1s linear infinite;
 }
@@ -55,16 +55,16 @@ body.loaded #loader {
 
 .header {
     background: #222;
-    padding: 10px 0;
+    padding: .625rem 0;
     position: sticky;
     width: 100%;
-    height: 72px;
+    height: 4.5rem;
     top: 0;
     z-index: 100;
 }
 
 .container {
-    max-width: 1800px;
+    max-width: 112.5rem;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -72,14 +72,14 @@ body.loaded #loader {
 }
 
 .logo {
-    height: 50px;
+    height: 3.125rem;
     width: auto;
 }
 
 .navegacao {
     list-style: none;
     display: flex;
-    gap: 30px;
+    gap: 1.875rem;
 }
 
 .navegacao a {
@@ -94,7 +94,7 @@ body.loaded #loader {
 }
 
 .logo {
-    height: 50px;
+    height: 3.125rem;
 }
 
 .pagina-ativa{
@@ -105,7 +105,7 @@ body.loaded #loader {
 
 .footer{
     background-color: #111;
-    padding: 50px 0;
+    padding: 3.125rem 0;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -120,17 +120,17 @@ body.loaded #loader {
 
 .whatsapp-btn {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 1.25rem;
+    right: 1.25rem;
     z-index: 999;
     display: block;
   }
   
   .whatsapp-btn img {
-    width: 60px;
-    height: 60px;
+    width: 3.75rem;
+    height: 3.75rem;
     border-radius: 50%;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    box-shadow: 0 .25rem .625rem rgba(0,0,0,0.3);
     transition: transform 0.3s;
   }
   
