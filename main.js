@@ -16,3 +16,13 @@ window.addEventListener("load", () => {
         }, 800);
     }, remaining > 0 ? remaining : 0);
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+  const menuToggle = document.querySelector('.menu-toggle');
+  const navegacao = document.querySelector('.navegacao');
+  if (menuToggle && navegacao) {
+    menuToggle.addEventListener('click', function () {
+      navegacao.classList.toggle('active');
+    });
+  }
+});
