@@ -47,66 +47,199 @@
   </section>
 
   <!-- Filtros -->
-  <section class="filtros">
-    <a href="./obras.html"><button class="ativo">Todos</button></a>
-    <a href="./ativo/bancadas.html"><button>Bancadas</button></a>
-    <a href="./ativo/pisos.html"><button>Pisos</button></a>
-    <a href="./ativo/reformas.html"><button>Reformas</button></a>
-    <a href="./ativo/restauracoes.html"><button>Restaurações</button></a>
-  </section>
+<section class="filtros">
+    <button class="ativo">Todos</button>
+    <button>Bancadas</button>
+    <button>Pisos</button>
+    <button>Reformas</button>
+    <button>Diversos</button>
+</section>
 
   <!-- Produtos -->
-  <main id="produtos">
-    <section class="produtos">
-      <h2>Nossas Obras</h2>
-      <p>Conheça a coleção especial de obras com ambientes transformados.</p>
+<main id="produtos">
+  <section class="produtos">
+    <h2>Nossas Obras</h2>
+    <p>Conheça a coleção especial de obras com ambientes transformados.</p>
 
-      <div class="grid-produtos">
+    <div class="grid-produtos">
 
-        <div class="produto">
+      <!-- ===== BANCADAS ===== -->
+      <div class="produto" data-categoria="bancadas">
           <img src="../../imgs/m_branco.png" alt="Bancada em Mármore Branco">
-          <h3>Nome da Obra</h3>
-          <p>Bancada | Arquiteto Responsável</p>
+          <h3>Bancada Imperial</h3>
+          <p>Bancada | Arquiteto: João Silva</p>
           <a href="#" class="btn-card">Saiba Mais</a>
-        </div>
-
-        <div class="produto">
-          <img src="../../imgs/gr_preto.png" alt="Restauração em Granito Preto">
-          <h3>Nome da Obra</h3>
-          <p>Restauro | Arquiteto Responsável</p>
-          <a href="#" class="btn-card">Saiba Mais</a>
-        </div>
-
-        <div class="produto">
-          <img src="../../imgs/m_travertino.png" alt="Bancada em Mármore Travertino">
-          <h3>Nome da Obra</h3>
-          <p>Bancada | Arquiteto Responsável</p>
-          <a href="#" class="btn-card">Saiba Mais</a>
-        </div>
-
-        <div class="produto">
-          <img src="../../imgs/qrtz_branco.png" alt="Reforma em Quartzo Branco">
-          <h3>Nome da Obra</h3>
-          <p>Reforma | Arquiteto Responsável</p>
-          <a href="#" class="btn-card">Saiba Mais</a>
-        </div>
-
-        <div class="produto">
-          <img src="../../imgs/gr_verde.png" alt="Granito Verde Ubatuba">
-          <h3>Nome da Obra</h3>
-          <p>Bancada | Arquiteto Responsável</p>
-          <a href="#" class="btn-card">Saiba Mais</a>
-        </div>
-
-        <div class="produto">
-          <img src="../../imgs/m_carrara.png" alt="Piso em Mármore Carrara">
-          <h3>Nome da Obra</h3>
-          <p>Piso | Arquiteto Responsável</p>
-          <a href="#" class="btn-card">Saiba Mais</a>
-        </div>
       </div>
-    </section>
-  </main>
+
+      <div class="produto" data-categoria="bancadas">
+          <img src="../../imgs/m_travertino.png" alt="Bancada em Mármore Travertino">
+          <h3>Bancada Clássica</h3>
+          <p>Bancada | Arquiteto: Carlos Mendes</p>
+          <a href="#" class="btn-card">Saiba Mais</a>
+      </div>
+
+      <div class="produto" data-categoria="bancadas">
+          <img src="../../imgs/gr_verde.png" alt="Granito Verde Ubatuba">
+          <h3>Bancada Verde</h3>
+          <p>Bancada | Arquiteto: Pedro Souza</p>
+          <a href="#" class="btn-card">Saiba Mais</a>
+      </div>
+
+      <div class="produto" data-categoria="bancadas">
+          <img src="https://www.magmamarmores.com.br/imagens/thumbs/produtos/granito/bancadas/bancada-granito-preto-via-lactea.jpg" alt="Bancada em Mármore Preto">
+          <h3>Bancada Luxo Preto</h3>
+          <p>Bancada | Arquiteto: Laura Almeida</p>
+          <a href="#" class="btn-card">Saiba Mais</a>
+      </div>
+
+      <div class="produto" data-categoria="bancadas">
+          <img src="https://emporiodasrochas.com.br/wp-content/uploads/2021/07/modelo-banheiro-julia-ribeiro.jpg" alt="Bancada em Mármore Verde">
+          <h3>Bancada Verde Natural</h3>
+          <p>Bancada | Arquiteto: Sofia Martins</p>
+          <a href="#" class="btn-card">Saiba Mais</a>
+      </div>
+
+      <div class="produto" data-categoria="bancadas">
+          <img src="https://www.magmamarmores.com.br/imagens/produtos/granito/pias-de-cozinha/pia-granito-azul-bahia-cozinha.jpg" alt="Granito Azul Bahia">
+          <h3>Bancada Azul Bahia</h3>
+          <p>Bancada | Arquiteto: Gustavo Ferreira</p>
+          <a href="#" class="btn-card">Saiba Mais</a>
+      </div>
+
+      <!-- ===== PISOS ===== -->
+      <div class="produto" data-categoria="pisos">
+          <img src="../../imgs/m_carrara.png" alt="Piso em Mármore Carrara">
+          <h3>Piso Carrara</h3>
+          <p>Piso | Arquiteto: Fernanda Rocha</p>
+          <a href="#" class="btn-card">Saiba Mais</a>
+      </div>
+
+      <div class="produto" data-categoria="pisos">
+          <img src="https://dbdzm869oupei.cloudfront.net/img/vinylrugs/large/34911.jpg" alt="Piso em Mármore Rosa">
+          <h3>Piso Rosa Chic</h3>
+          <p>Piso | Arquiteto: Beatriz Carvalho</p>
+          <a href="#" class="btn-card">Saiba Mais</a>
+      </div>
+
+      <div class="produto" data-categoria="pisos">
+          <img src="https://img.irroba.com.br/fit-in/600x600/filters:fill(fff):quality(80)/fluzaoco/catalog/api/fluzaoco_citelirr/671120153df48.jpg" alt="Piso em Mármore Bege">
+          <h3>Piso Bege Elegante</h3>
+          <p>Piso | Arquiteto: Rafael Lima</p>
+          <a href="#" class="btn-card">Saiba Mais</a>
+      </div>
+
+      <!-- Novos Pisos -->
+      <div class="produto" data-categoria="pisos">
+          <img src="https://i.pinimg.com/564x/62/42/2e/62422ed8619b865bb0851756863509eb.jpg" alt="Piso em Mármore Cinza">
+          <h3>Piso Cinza Contemporâneo</h3>
+          <p>Piso | Arquiteto: Lucas Nogueira</p>
+          <a href="#" class="btn-card">Saiba Mais</a>
+      </div>
+
+      <div class="produto" data-categoria="pisos">
+          <img src="https://img.irroba.com.br/fit-in/600x600/filters:fill(transparent):quality(80)/milmoiuu/catalog/pisos-retificados-polidos/ambiente-marmi-delux.png" alt="Piso em Mármore Branco Premium">
+          <h3>Piso Branco Premium</h3>
+          <p>Piso | Arquiteto: Mariana Lima</p>
+          <a href="#" class="btn-card">Saiba Mais</a>
+      </div>
+
+      <div class="produto" data-categoria="pisos">
+          <img src="https://i.pinimg.com/564x/fe/99/d4/fe99d40773fa34170978b71864e283ca.jpg" alt="Piso em Mármore Marrom">
+          <h3>Piso Marrom Clássico</h3>
+          <p>Piso | Arquiteto: Ana Castro</p>
+          <a href="#" class="btn-card">Saiba Mais</a>
+      </div>
+
+      <!-- ===== REFORMAS ===== -->
+      <div class="produto" data-categoria="reformas">
+          <img src="https://www.feicon.com.br/content/dam/sitebuilder/rxb/feico-batimat/2023/blog/Feicon.25.11.brasileiros_fazem_reformas_5000.jpg/_jcr_content/renditions/original.image_file.1919.1277.file/Feicon.25.11.brasileiros_fazem_reformas_5000.jpg" alt="Reforma em Quartzo Branco">
+          <h3>Reforma Elegante</h3>
+          <p>Reforma | Arquiteto: Mariana Lima</p>
+          <a href="#" class="btn-card">Saiba Mais</a>
+      </div>
+
+      <div class="produto" data-categoria="reformas">
+          <img src="https://www.mapadaobra.com.br/wp-content/uploads/2017/04/novo-layout-VC-6.jpg" alt="Reforma em Quartzo Preto">
+          <h3>Reforma Moderna</h3>
+          <p>Reforma | Arquiteto: Thiago Santos</p>
+          <a href="#" class="btn-card">Saiba Mais</a>
+      </div>
+
+      <div class="produto" data-categoria="reformas">
+          <img src="https://simonettoportoalegre.com.br/wp-content/uploads/2020/01/economizar-na-reforma.jpg" alt="Reforma em Quartzo Bege">
+          <h3>Reforma Clássica</h3>
+          <p>Reforma | Arquiteto: Camila Souza</p>
+          <a href="#" class="btn-card">Saiba Mais</a>
+      </div>
+
+      <!-- Novas Reformas -->
+      <div class="produto" data-categoria="reformas">
+          <img src="https://triider-prd-blog-files.s3.sa-east-1.amazonaws.com/wp-content/uploads/2018/06/28194453/reforma-de-casa-370x285.jpg" alt="Reforma em Quartzo Rosa">
+          <h3>Reforma Rosa Contemporânea</h3>
+          <p>Reforma | Arquiteto: Lucas Pereira</p>
+          <a href="#" class="btn-card">Saiba Mais</a>
+      </div>
+
+      <div class="produto" data-categoria="reformas">
+          <img src="https://img.apresenta.me/M7ItVksvyNJLSUwxtTA2NjFMMzE2i09NT8zN1Dc3NTLWT81JziwpSrTNVDMzNDG0TQYA.jpg" alt="Reforma em Quartzo Cinza">
+          <h3>Reforma Cinza Minimalista</h3>
+          <p>Reforma | Arquiteto: Gabriela Souza</p>
+          <a href="#" class="btn-card">Saiba Mais</a>
+      </div>
+
+      <div class="produto" data-categoria="reformas">
+          <img src="https://arquitetura.vivadecora.com.br/wp-content/uploads/2019/10/Reforma-de-Casa-exemplo-de-mudan%C3%A7a-de-layout-foto-habit%C3%ADssimo.jpg" alt="Reforma em Quartzo Marrom">
+          <h3>Reforma Marrom Clássica</h3>
+          <p>Reforma | Arquiteto: Felipe Lima</p>
+          <a href="#" class="btn-card">Saiba Mais</a>
+      </div>
+
+      <!-- ===== DIVERSOS ===== -->
+      <div class="produto" data-categoria="diversos">
+          <img src="https://lh3.googleusercontent.com/p/AF1QipOn5xhzMGkfD_OukQZmYxeUnUzks6JOlqH2hkkC=s680-w680-h510-rw" alt="Restauração em Granito Preto">
+          <h3>Palácio Tangará</h3>
+          <p>Diversos | Arquiteto: Ana Costa</p>
+          <a href="#" class="btn-card">Saiba Mais</a>
+      </div>
+
+      <div class="produto" data-categoria="diversos">
+          <img src="https://lh3.googleusercontent.com/pw/AP1GczMqmYhQTK5SZkoqQ5t3D2btwlyJX0_bt-aDVTYNGRXX4lA06NOPfwhaJI9Cmx7AUoIdjbllFCoUvIsmanVfldbvoxnpKdbgI27lmBTI7a9zJW0bewxv_xzMhyus2tgRbwpXG-WlmjDZ2Ie28R0C4QWc=w1271-h953-s-no-gm?authuser=0" alt="Obra">
+          <h3>Apartamento Vila Olímpia</h3>
+          <p>Diversos | Arquiteto: Ricardo Lima</p>
+          <a href="#" class="btn-card">Saiba Mais</a>
+      </div>
+
+      <div class="produto" data-categoria="diversos">
+          <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTeS4LfTpeCulDyVHJkZi5rIjBL68pbEa4VI4_VdMVsSi5KqoB-" alt="Obra">
+          <h3>Escada Quartzito Kalahari</h3>
+          <p>Diversos | Arquiteto: Helena Castro</p>
+          <a href="#" class="btn-card">Saiba Mais</a>
+      </div>
+
+      <div class="produto" data-categoria="diversos">
+          <img src="https://lh3.googleusercontent.com/pw/AP1GczOcx4CxFccTQ8HoaLAYhjytw4luvIUhZPmhACQsGYG6FV1lCKnph3Z6Mv92CtzFYOGhnb6gQlnBcjZ3-ptAZhllCZvqRn-Oace30FNcMAXhR0QsI_P_ftLAKS9O3YvjxbPYlQvrAZnVp6vGpC9rbNnM=w1271-h953-s-no-gm?authuser=0" alt="Obra">
+          <h3>Fazenda Boa Vista</h3>
+          <p>Diversos | Arquiteto: Laura Mendes</p>
+          <a href="#" class="btn-card">Saiba Mais</a>
+      </div>
+
+      <div class="produto" data-categoria="diversos">
+          <img src="https://lh3.googleusercontent.com/pw/AP1GczPE5FPxI0XdJC3ciousnRxMww6Gp7J4agwRvw1b4M3Ugjz_2X0kRm0sgR9N9VsR4Fxkfg2YCGF14G_oBjUPh0q036ac9aZT_V0MRkf7bMHpMjGOgasKW2NTqUUMEztr9SajJZ3XKBqb8-B5kJfs1UhO=w1271-h953-s-no-gm?authuser=0" alt="Obra">
+          <h3>Apartamento Itaim Bibi</h3>
+          <p>Diversos | Arquiteto: Thiago Rocha</p>
+          <a href="#" class="btn-card">Saiba Mais</a>
+      </div>
+
+      <div class="produto" data-categoria="diversos">
+          <img src="https://lh3.googleusercontent.com/pw/AP1GczNpJUprsiykmDC2K9Ux8AyrtAPKscQtrNeQQ4kDjnWczooDcvscofK9OpniES5Senc4oPsFXU0vzpoQid6-dSUC8__enY110XPOjohdxYSYHp79FHi64bTIHGvKtWniAiDSQadWt6rR6vuyYtN7GR93=w1271-h953-s-no-gm?authuser=0" alt="Obra ">
+          <h3>Edificio Heritage</h3>
+          <p>Diversos | Arquiteto: Camila Ferreira</p>
+          <a href="#" class="btn-card">Saiba Mais</a>
+      </div>
+      
+    </div>
+  </section>
+</main>
     
     <footer class="footer">
         <a href="../../index.html"><img class="footer-logo" src="../../imgs/logo.png" alt="Logo rocamar"></a>
@@ -118,6 +251,61 @@
         <p>© 2025 Rocamar – Todos os direitos reservados</p>
     
     </footer>
+
+    <!-------------------------------------------------------------------------------------------------------------------------------------->
+
+    <script>
+  const filtros = document.querySelectorAll('.filtros button');
+  const obras = document.querySelectorAll('.grid-produtos .produto');
+
+  filtros.forEach(botao => {
+    botao.addEventListener('click', () => {
+      filtros.forEach(b => b.classList.remove('ativo'));
+      botao.classList.add('ativo');
+
+      const categoria = botao.textContent.toLowerCase();
+
+      obras.forEach(obra => {
+        if (categoria === 'todos') {
+          obra.style.display = 'flex';
+        } else {
+          if (obra.dataset.categoria === categoria) {
+            obra.style.display = 'flex';
+          } else {
+            obra.style.display = 'none';
+          }
+        }
+      });
+    });
+  });
+
+function removerAcentos(texto) {
+    return texto.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+}
+
+filtros.forEach(botao => {
+  botao.addEventListener('click', () => {
+    filtros.forEach(b => b.classList.remove('ativo'));
+    botao.classList.add('ativo');
+
+    const categoria = removerAcentos(botao.textContent.toLowerCase());
+
+    obras.forEach(obra => {
+      if (categoria === 'todos') {
+        obra.style.display = 'flex';
+      } else {
+        if (removerAcentos(obra.dataset.categoria) === categoria) {
+          obra.style.display = 'flex';
+        } else {
+          obra.style.display = 'none';
+        }
+      }
+    });
+  });
+});
+</script>
+
+    <!-------------------------------------------------------------------------------------------------------------------------------------->
 
 </body>
 </html>
