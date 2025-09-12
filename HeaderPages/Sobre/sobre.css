@@ -77,33 +77,11 @@
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
 
-/* Localização */
 .sobre-localizacao iframe {
     border-radius: 10px;
     margin-top: 15px;
 }
 
-/* Responsivo */
-@media(max-width: 768px) {
-    .cards-servicos {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .card-servico {
-        width: 90%;
-    }
-
-    .sobre-hero-content h1 {
-        font-size: 2rem;
-    }
-
-    .sobre-hero-content p {
-        font-size: 1rem;
-    }
-}
-
-/* Container para os cards e localização */
 .sobre-secao .container {
     display: flex;
     flex-wrap: wrap;
@@ -111,16 +89,14 @@
     justify-content: space-between;
 }
 
-/* Quem somos ocupa toda a largura */
 .sobre-introducao {
     padding: 20px;
     flex: 1 1 100%;
     margin-bottom: 30px;
 }
 
-/* Serviços e localização em 3 colunas */
 .sobre-servicos {
-    flex: 2; /* ocupa duas colunas */
+    flex: 2;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -141,12 +117,11 @@
 }
 
 .card-servico {
-    width: calc(50% - 10px); /* 2 cards por linha */
+    width: calc(50% - 10px);
 }
 
-/* Localização ocupa a terceira coluna */
 .sobre-localizacao {
-    flex: 1; /* ocupa uma coluna */
+    flex: 1;
     min-width: 250px;
 }
 
