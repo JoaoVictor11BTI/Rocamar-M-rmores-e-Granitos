@@ -105,3 +105,44 @@
     background: #ffffff;
     color: #555;
   }
+
+  @media (min-width: 360px) and (max-width: 450px) {
+
+    .hero {
+        height: 70vh;
+    }
+
+    .rocamar{
+        height: 5rem;
+    }
+
+    .sessenta{
+        height: 20vh;
+    }
+
+    .introducao{
+        align-items: center;
+        padding: 1rem;
+        gap: 0.625rem;
+        margin: 2rem;
+    }
+
+    .box-titulo h2 {
+        font-size: 1.5rem;
+    }
+
+    .hero2 {
+        height: 50vh;
+    }
+
+    .hero2-content {
+        height: 50vh;
+        padding: 0.625rem;
+    }
+    
+    .cta-btn {
+        margin-top: 0.625rem;
+        padding: 0.5rem 1rem;
+        font-size: 0.875rem;
+    }
+}
