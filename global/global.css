@@ -137,3 +137,14 @@ body.loaded #loader {
   .whatsapp-btn img:hover {
     transform: scale(1.1);
   }
+
+  @media (min-width: 360px) and (max-width: 450px) {
+
+    .logo{
+        height: 3rem;
+    }
+
+    .footer-logo{
+        height: 3.75rem;
+    }
+}
